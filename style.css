@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(244, 250, 250);
+  form {
+    background-image: url("pexels-padrinan-19670.jpg");
+    background-size: auto;
+    max-width: 40%;
+    display: block;
+    border: 1px solid rgb(222, 211, 211);
+    box-shadow: 0 30px 50px rgb(241, 225, 225);
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin: 30px auto;
+  }
+}
+
+h1 {
+  font-family: "Text Me One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+}
+input {
+  font-family: "Text Me One", sans-serif;
+}
+h2 {
+  font-family: "Text Me One", sans-serif;
+  font-weight: 600;
+}
+
+#temp {
+  padding-top: 10px;
+  font-family: 300;
+  font-size: 60px;
+  float: right;
+  width: 50%;
+  line-height: 1.4;
+}
+#temp-emoji {
+  padding-top: 15px;
+  font-family: 300;
+  font-size: 60px;
+  float: right;
+  width: 30%;
+  line-height: 1.4;
+}
+.image {
+  width: 58px;
+  height: 58px;
+}
+h3 strong {
+  color: red;
+}
+/* STYLING SUBMIT BUTTON */
+#submit {
+  font-family: "Text Me One", sans-serif;
+  background-color: rgb(142, 78, 203);
+  color: aliceblue;
+}
+/* STYLING CURRENT WEATHER */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* STYLING WEEKDAYS */
+h3 {
+  font-weight: lighter;
+  font-family: "Text Me One", sans-serif;
+  line-height: 0.5;
+}
+p {
+  font-family: "Text Me One", sans-serif;
+  line-height: 1.2;
+}
+/* STYLING WEATHER FORECAST */
+.row {
+  font-family: "Text Me One", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.day-of-week {
+  text-align: center;
+  color: rgb(150, 145, 145);
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.icon {
+  width: 30%;
+}
+#forecast {
+  padding-bottom: 12px;
+}
+.forecast-temp {
+  text-align: center;
+  color: rgb(244, 161, 161);
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  width: 40%;
+}
+.temperature-forecast {
+  padding: 0 6px;
+}
+
+/* styling footer/copy right */
+#copy-right {
+  font-size: x-small;
+  font-style: italic;
+  color: rgb(111, 2, 2);
+  text-align: center;
+  padding-inline: 15%;
+}
