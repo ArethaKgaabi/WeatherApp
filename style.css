@@ -21,6 +21,9 @@ h1 {
   font-size: 40px;
 }
 input {
+   padding: 8px;
+  border-radius: 3px;
+  border: 1px solid rgb(218, 212, 212);
   font-family: "Text Me One", sans-serif;
 }
 h2 {
@@ -53,9 +56,12 @@ h3 strong {
 }
 /* STYLING SUBMIT BUTTON */
 #submit {
+   border-radius: 3px;
+  border: 1px solid rgb(27, 19, 19);
   font-family: "Text Me One", sans-serif;
-  background-color: rgb(142, 78, 203);
-  color: aliceblue;
+  background-color: rgb(224, 208, 238);
+  color: rgb(10, 11, 11);
+  font-size: small;
 }
 /* STYLING CURRENT WEATHER */
 .column {
