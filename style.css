@@ -97,6 +97,7 @@ p {
   padding-bottom: 12px;
 }
 .forecast-temp {
+  font-size:small;
   text-align: center;
   color: rgb(244, 161, 161);
   justify-content: center;
