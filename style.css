@@ -3,7 +3,7 @@ body {
   form {
     background-image: url("pexels-padrinan-19670.jpg");
     background-size: auto;
-    max-width: 35%;
+    max-width: 30%;
     display: block;
     border: 1px solid rgb(222, 211, 211);
     box-shadow: 0 30px 50px rgb(241, 225, 225);
@@ -65,6 +65,8 @@ h3 strong {
 
 /* STYLING WEEKDAYS */
 h3 {
+  font-size: medium;
+  color: rgb(142, 145, 145);
   font-weight: lighter;
   font-family: "Text Me One", sans-serif;
   line-height: 0.5;
